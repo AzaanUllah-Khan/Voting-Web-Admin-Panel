@@ -3,6 +3,7 @@ import Main from './Pages/Main'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "@fontsource/poppins";
 import './App.css'
+import Admin from './Pages/Admin';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
       </BrowserRouter>
     </>
