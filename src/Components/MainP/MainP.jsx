@@ -3,7 +3,7 @@ import Sidebar from './Components/Sidebar'
 
 const MainP = () => {
   return (
-    <div>
+    <div style={{display:"flex",alignItems:"start",justifyContent:"stretch"}}>
       <Sidebar />
     </div>
   )

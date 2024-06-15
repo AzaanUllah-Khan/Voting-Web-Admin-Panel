@@ -1,13 +1,16 @@
-import React from 'react'
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRightFromBracket, faGear, faPlus } from '@fortawesome/free-solid-svg-icons';
+import './index.css';
 
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-      <FontAwesomeIcon icon={faPlus} />
+      <FontAwesomeIcon className="icon" icon={faPlus} style={{ fontSize: "24px", color: "#84c298", border: "2px solid #ccc", padding: "10px", borderRadius: "50%", cursor: "pointer" }} />
+      <FontAwesomeIcon className="icon" icon={faGear} style={{ fontSize: "24px", color: "#84c298", border: "2px solid #ccc", padding: "10px", borderRadius: "50%", cursor: "pointer" }} />
+      <FontAwesomeIcon className="icon" icon={faArrowRightFromBracket} style={{ fontSize: "24px", color: "#84c298", border: "2px solid #ccc", padding: "10px", borderRadius: "50%", cursor: "pointer", marginTop: "auto" }} />
     </div>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;

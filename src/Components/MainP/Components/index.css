@@ -1,0 +1,26 @@
+.sidebar {
+  border-right: 2px solid #ccc;
+  display: flex;
+  padding: 30px 20px 50px;
+  flex-direction: column;
+  height: 90vh;
+  gap: 20px;
+}
+
+.sidebar .icon {
+  transition: all .4s ease-in;
+}
+
+.sidebar .icon:nth-child(-n+2):hover,
+.sidebar .icon:nth-of-type(-n+2):hover {
+  transform: rotate(360deg);
+  background-color: #84c298;
+  color: white !important;
+  border-color: black !important;
+}
+.sidebar .icon:nth-child(3):hover,
+.sidebar .icon:nth-of-type(3):hover {
+  background-color: #84c298;
+  color: white !important;
+  border-color: black !important;
+}
