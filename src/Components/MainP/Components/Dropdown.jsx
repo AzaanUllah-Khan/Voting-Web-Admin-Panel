@@ -2,6 +2,7 @@ import React from 'react';
 import { Select } from 'antd';
 const Dropdown = () => (
   <Select
+    style={{ cursor: "pointer" }}
     showSearch
     placeholder="Select a Designation"
     filterOption={(input, option) =>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Uploadd from './Upload'
 import Dropdown from './Dropdown'
+import './index.css'
 
 const Popup = () => {
   return (
